@@ -5,6 +5,7 @@ A lambda function is created to collect data using the [yfinance](https://pypi.o
 ![image](https://user-images.githubusercontent.com/57573785/82746496-611d0580-9d5e-11ea-97a3-000896b5d060.png)
 ## Data Transformer
 In this part of project, a AWS **Kinesis Firehose Delivery Stream** service is configured to have a lambda function called *DataTransformer* that transforms and places data into S3.
+![image](https://user-images.githubusercontent.com/57573785/82766764-9b82b300-9def-11ea-936a-437cecfdbeb9.png)
 ## Athena Query
 Here, **AWS Glue** service is set to direct **AWS Athena** to the S3 bucket where the finance data is stored for the subsequent interative querying. 
 
